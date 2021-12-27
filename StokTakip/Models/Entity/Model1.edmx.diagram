@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dcebbf36ad9f47c0abbb2bb6c32de630" Name="Diagram1">
+        <EntityTypeShape EntityType="StokTakipDBModel.Kategori" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipDBModel.Musteri" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipDBModel.Satıslar" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipDBModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StokTakipDBModel.Urun" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="StokTakipDBModel.FK_Urun_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipDBModel.FK_Satıslar_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="StokTakipDBModel.FK_Satıslar_Urun" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="StokTakipDBModel.Admin" Width="1.5" PointX="7" PointY="1.125" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

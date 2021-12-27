@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+                {
+                    <div class="mt-5">
+
+                        <input type="text" name="KullaniciAdi" placeholder="Kullanıcı Adı Giriniz" class="form-control" />
+                    </div>
+                    <br />
+                    <div>
+
+                        <input type="password" name="Sifre" placeholder="Şifre Giriniz" class="form-control" />
+                    </div>
+                    <div>
+                        <button class="btn btn-info">Giriş</button>
+                    </div>
+
+                }
+                
+
+            </div>
+
+            <div class="col-md-3"></div>
+
+        </div>
+    </div>
+</body>
+</html>
